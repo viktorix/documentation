@@ -53,34 +53,16 @@
 			};
 		</script>
 
-		<!-- Piwik -->
-		<script type="text/javascript">
-			var _paq = _paq || [];
-			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-			_paq.push(["setCookieDomain", "*.nextcloud.com"]);
-			_paq.push(["setDomains", ["*.nextcloud.com"]]);
-			_paq.push(['trackPageView']);
-			_paq.push(['enableLinkTracking']);
-			(function() {
-				var u="//stats.nextcloud.com/";
-				_paq.push(['setTrackerUrl', u+'piwik.php']);
-				_paq.push(['setSiteId', '3']);
-				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-			})();
-		</script>
-		<noscript><p><img src="//stats.nextcloud.com/piwik.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
-		<!-- End Piwik Code -->
-		<!-- Mautic -->
+		<!-- Matomo Tag Manager -->
 		<script>
-			(function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
-				w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
-				m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://mautic.nextcloud.com/mtc.js','mt');
-
-			mt('send', 'pageview');
+		  var _mtm = window._mtm = window._mtm || [];
+		  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+		  (function() {
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.async=true; g.src='https://cdn.matomo.cloud/nextcloud.matomo.cloud/container_jU4p8Prp.js'; s.parentNode.insertBefore(g,s);
+		  })();
 		</script>
-		<!-- End Mautic code -->
+		<!-- End Matomo Tag Manager -->
 	</head>
 	<body role="document">
 
@@ -192,9 +174,9 @@
 			</li>
 		</ul>
 		<ul class="right-buttons">
-			<li class="ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label">Demo</a></li>
+			<li class="ghost-btn"><a href="https://nextcloud.com/instant-trial/" class="nav__label">Instant trial</a></li>
 			<li class="ghost-btn"><a href="https://nextcloud.com/install" class="nav__label">Download</a></li>
-			<li class="ghost-btn"><a href="https://nextcloud.com/enterprise/buy" class="nav__label">Buy</a></li>
+			<li class="ghost-btn"><a href="https://nextcloud.com/enterprise/" class="nav__label">Buy</a></li>
 			<li class="ghost-btn"><a href="https://nextcloud.com/pricing#faq" class="nav__label">FAQ</a></li>
 		</ul>
 	</div>
@@ -639,7 +621,7 @@
 					<ul>
 						<li><a class="reference external" href="https://nextcloud.com/support">Support</a></li>
 						<li><a class="reference external" href="https://help.nextcloud.com/categories">Forums</a></li>
-						<li><a class="reference external" href="https://try.nextcloud.com">Demo</a></li>
+						<li><a class="reference external" href="https://nextcloud.com/instant-trial/">Demo</a></li>
 						<li><a class="reference external" href="https://nextcloud.com/contact">Contact us</a></li>
 						<li><a class="reference external" href="https://nextcloud.com/press">Press center</a></li>
 						<li><a class="reference external" href="https://github.com/nextcloud/server/issues">Bug Tracker</a></li>
@@ -650,21 +632,21 @@
 				<div class="footer-nav">
 					<h1>Follow us</h1>
 					<ul>
-						<li><a class="reference external" href="https://www.facebook.com/Nextcloud-1032807203462807/">Facebook</a></li>
+						<li><a class="reference external" href="https://www.facebook.com/Nextclouders">Facebook</a></li>
 						<li><a class="reference external" href="https://instagram.com/nextclouders">Instagram</a></li>
 						<li><a class="reference external" href="https://www.linkedin.com/company/10827569/">LinkedIn</a></li>
 						<li><a class="reference external" href="https://youtube.com/nextcloud">YouTube</a></li>
 						<li><a class="reference external" href="https://twitter.com/nextclouders">Twitter</a></li>
 						<li><a class="reference external" href="https://mastodon.xyz/@nextcloud">Mastodon</a></li>
 						<li><a class="reference external" href="https://nextcloud.com/podcast/">Podcast</a></li>
-						<li><a class="reference external" href="https://nextcloud.com/blogfeed">RSS Feed</a></li>
+						<li><a class="reference external" href="https://nextcloud.com/feed">RSS Feed</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p>&copy; 2021 Nextcloud GmbH</p>
+				<p>&copy; 2021-2025 Nextcloud GmbH</p>
 			</div>
 		</div>
 	</div><!-- container -->
